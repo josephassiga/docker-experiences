@@ -6,3 +6,7 @@ identidock:
     ENV: DEV
   volumes:
     - ./app:/app
+  inks:
+      - dnmonster
+  dnmonster:
+     image: amouat/dnmonster:1.0
